@@ -1,0 +1,74 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.navbar bg-body-tertiary px-3 mb-3{
+  background-color: rgb(216, 215, 250);
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(3, 31, 19);
+}
+
+ .bg-body-tertiary px-3 mb-3{
+  background-color: rgb(182, 0, 97);
+ }
+
+.App-link {
+  color: #61dafb;
+}
+#nav {color: blue;
+background-color: blue;}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.navbar {
+  background-color: hsl(295, 75%, 29%);
+}
+
+.navbar-brand,
+.nav-link {
+  color: #290404ca;
+  background-color: #e9dee1;
+}
+
+.nav-link:hover {
+  opacity: 0.8;
+}
+
+.btn-primary {
+  background-color: #fff;
+  color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #007bff;
+  color: #ffffff;
+}
+.container-fluid{
+  width: 40%;
+  height: 100;
+}

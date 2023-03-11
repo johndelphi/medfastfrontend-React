@@ -1,0 +1,23 @@
+.fakeimg {
+    /* height: 50px;
+    background: #732323; */
+
+ height: 100px;
+  width: 100px;
+  background-color: #0c3f71;
+  /* background-image: url('drug-image.png'); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 5px;
+  }
+  .ResultName{
+    position: relative;
+    color: #2948a5;
+  }
+  .col-sm-8
+ { 
+    background-color: hwb(105 92% 5% / 0.756);
+ }
+ .ResultName{color: #0a440f;
+text-align: center;}
