@@ -13,10 +13,10 @@
   }
 }
 .navbar bg-body-tertiary px-3 mb-3{
-  background-color: rgb(216, 215, 250);
+  background-color: rgb(14, 66, 17);
 }
 .App-header {
-  background-color: #282c34;
+  background-color: #283429;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -27,7 +27,7 @@
 }
 
  .bg-body-tertiary px-3 mb-3{
-  background-color: rgb(182, 0, 97);
+  background-color: rgb(0, 182, 55);
  }
 
 .App-link {
@@ -51,7 +51,9 @@ background-color: blue;}
 .navbar-brand,
 .nav-link {
   color: #290404ca;
-  background-color: #e9dee1;
+  background-color: #dee9e3;
+  text-shadow: #61dafb;
+  font-size: larger;
 }
 
 .nav-link:hover {
@@ -71,4 +73,8 @@ background-color: blue;}
 .container-fluid{
   width: 40%;
   height: 100;
+}
+.dropdown-menu show{
+  background-color: #283429;
+  text-align: center;
 }

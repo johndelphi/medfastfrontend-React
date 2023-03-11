@@ -1,15 +1,18 @@
 .fakeimg {
-    /* height: 50px;
-    background: #732323; */
-
- height: 100px;
+     flex-shrink: inherit;
+     flex-wrap: nowrap;
+     width: auto; /* Auto width to maintain aspect ratio */
+     border-radius: 10px;
+     overflow: hidden;
+     height: 30%;
+ /* height: 100px;
   width: 100px;
   background-color: #0c3f71;
-  /* background-image: url('drug-image.png'); */
-  background-position: center;
+   background-image: url('drug-image.png');
+  background-position: left;
   background-repeat: no-repeat;
   background-size: contain;
-  border-radius: 5px;
+  border-radius: 20px; */
   }
   .ResultName{
     position: relative;
@@ -21,3 +24,9 @@
  }
  .ResultName{color: #0a440f;
 text-align: center;}
+#h2{
+   align-content: center;
+   text-align: center;
+   text-decoration-color: #0a440f;
+
+}

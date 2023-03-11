@@ -1,13 +1,17 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import './SearchResult.css';
 
-function SearchResult(){
+
+function SearchResult(props){
+  
     return(
 <>
 <div className="container" style={{marginTop: '30px'}}>
   <div className="row">
     <div className="col-sm-4">
-    <div className="fakeimg">Fake Image</div>
+    <div className="fakeimg">
+     <img src={props.medicinepicture} alt=''/>
+    </div>
       <h2>Medicine</h2>
       <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
       <p>Lorem ipsum dolor sit ame.</p>
@@ -30,6 +34,7 @@ function SearchResult(){
       </ul>
       <hr className="d-sm-none" />
     </div>
+    {/* Result table */}
     <div className="col-sm-8">
       <h2 className='ResultName' >Results</h2>
      <div>
@@ -37,17 +42,17 @@ function SearchResult(){
   <thead>
     <tr>
       <th scope="col">#</th>
-      <th scope="col">First</th>
-      <th scope="col">Last</th>
-      <th scope="col">Handle</th>
+      <th scope="col">Seller</th>
+      <th scope="col">location</th>
+      <th scope="col">price</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <th scope="row">1</th>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td>@mdo</td>
+      <td>Walmart</td>
+      <td>boston</td>
+      <td>$20</td>
     </tr>
     <tr>
       <th scope="row">2</th>
