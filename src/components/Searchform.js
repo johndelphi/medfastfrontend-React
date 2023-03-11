@@ -1,7 +1,9 @@
+
+
 function Searchbar(){
+  
     return(
 <>
-
 <div className="container-fluid">
 <div className="d-flex justify-content-center">
   <form className="form-inline my-2 my-lg-0">
@@ -12,7 +14,6 @@ function Searchbar(){
   </form>
 </div>
 </div>
-
 </>
     );
 
